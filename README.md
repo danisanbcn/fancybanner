@@ -19,15 +19,15 @@ cd ~ && git clone https://github.com/danisanbcn/fancybanner.git
 **Non colored**
 
 ```bash
-echo 'BANNERLIST=$(ls -1 ~/fancybanner | wc -l)' >> ~/.bashrc
+echo 'BANNERLIST=$(ls -1 ~/fancybanner/banner* | wc -l)' >> ~/.bashrc
 echo 'cat ~/fancybanner/banner$((RANDOM % $BANNERLIST + 1))' >> ~/.bashrc
 ```
 
 **Colored**
 
 ```bash
-echo 'BANNERLIST=$(ls -1 ~/fancybanner | wc -l)' >> ~/.bashrc
-echo 'cat ~/fancybanner/banner$((RRANDOM % $BANNERLIST + 1)) | loclat' >> ~/.bashrc
+echo 'BANNERLIST=$(ls -1 ~/fancybanner/banner* | wc -l)' >> ~/.bashrc
+echo 'cat ~/fancybanner/banner$((RANDOM % $BANNERLIST + 1)) | loclat' >> ~/.bashrc
 ```
 
 Done!
