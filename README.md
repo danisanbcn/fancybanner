@@ -38,4 +38,4 @@ Make it hidden
 ```bash
 mv fancybanner .fancybanner
 ```
-Replace *~/fancybanner* with *~/.fancybanner* in .bashrc line
+Replace *~/fancybanner* with *~/.fancybanner* in .bashrc lines
