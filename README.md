@@ -26,7 +26,7 @@ echo 'cat ~/fancybanner/banner$((RANDOM % $BANNERLIST + 1))' >> ~/.bashrc
 **Colored**
 
 ```bash
-echo 'BANNERLIST=$(ls -1 ~/fancybanner/banner* | wc -l) | lolcat' >> ~/.bashrc
+echo 'BANNERLIST=$(ls -1 ~/fancybanner/banner* | wc -l)' >> ~/.bashrc
 echo 'cat ~/fancybanner/banner$((RANDOM % $BANNERLIST + 1)) | loclat' >> ~/.bashrc
 ```
 
