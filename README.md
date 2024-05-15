@@ -36,6 +36,10 @@ Done!
 
 Make it hidden
 ```bash
-mv fancybanner .fancybanner
+mv ~/fancybanner ~/.fancybanner
 ```
 Replace *~/fancybanner* with *~/.fancybanner* in .bashrc lines
+```bash
+sed -i 's/fancybanner/.fancybanner/g' ~/.bashrc
+```
+
